@@ -39,5 +39,5 @@ class Vehicle(object):
         return cls(air_density, mass)
         
 
-    def _str_(self):
+    def __str__(self):
         return f"air_density: {self.air_density}, Mass: {self.mass}"
